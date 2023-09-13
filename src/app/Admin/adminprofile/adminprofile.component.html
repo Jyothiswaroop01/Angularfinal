@@ -1,0 +1,26 @@
+<div>
+    <button mat-raised-button (click)="addProduct()" style="margin-left: 80%;">Additem</button>
+    <button mat-button [matMenuTriggerFor]="menu" style="margin-left:4%; border-radius: 100%;">
+      <img [src]="imgurl" width="50px" height="40px">
+    </button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item (click)="profileClick()">My Profile</button>
+      <button mat-menu-item>All Orders</button><hr>
+      <button mat-menu-item (click)="Quires()">All Quires</button>
+      <button mat-raised-button color="warn" (click)="logout()" style="margin-left:15px">Logout</button>
+    </mat-menu>
+  </div><br><br>
+  
+
+<mat-card style="background-color:aliceblue;">
+    <mat-card-content>
+      <div style="float: left;margin-left: 100px;font-size: 20px;margin-top:30px">
+        <p><strong>Name:</strong> {{fullName}}</p><br>
+        <p><strong>Email:</strong> {{email}}</p><br>
+        <p><strong>Password:</strong> {{password}}</p>
+      </div>
+      <div style="float: right;">
+        <img [src]="imgurl" height="200px" width="200px" style="margin-right: 70px;">
+      </div>
+    </mat-card-content>
+</mat-card>

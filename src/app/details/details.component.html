@@ -1,0 +1,23 @@
+<div *ngIf="item">
+    <mat-card style="width: 100%">
+        <mat-card-content>
+            <img src="{{item.Image}}" style="float: right;">
+            <p style="font-size: 30px;color: brown;"><strong>{{ item.Name }}</strong>({{ item.Desc }})</p><br>
+            <p><strong style="color:cadetblue;font-size: 20px;">{{ item.Price | currency }}</strong><a style="text-decoration:line-through;margin-left: 10px;">{{item.OPrice | currency}}</a></p>
+            <p>{{item.Description}}</p>
+            <mat-card>
+                <mat-card-content>
+                    <h4 style="font-weight: bolder;text-decoration: underline;">Coupons for you</h4>
+                    <p>No cost EMI ₹3,167/month. Standard EMI also available</p><br>
+                    <h4 style="font-weight: bolder;text-decoration: underline;">Available offers</h4>
+                    <p>Bank OfferGet 10% Cashback on Samsung Axis bank Credit Card</p>
+                    <p>Bank Offer5% Cashback on Flipkart Axis Bank Card</p>
+                    <p>Special PriceGet extra ₹5500 off (price inclusive of cashback/coupon)</p>
+                    <p> FreebieSpotify Premium - 3M at ₹119</p>
+                </mat-card-content>
+            </mat-card><br>
+            <button mat-raised-button color="warn" (click)="Addtocart(item)"style="margin-left:5%">Add to Cart</button>
+            <button mat-raised-button color="warn" (click)="Back()"style="margin-left:3%">Back</button>
+        </mat-card-content>
+    </mat-card><br><br>
+</div>

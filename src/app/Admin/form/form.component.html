@@ -1,0 +1,38 @@
+  <mat-card style="margin-left: 40%;width:20%;margin-top:5%">
+    <mat-card-header>
+      <mat-card-title>Update Product</mat-card-title>
+    </mat-card-header><hr>
+    <mat-card-content>
+      <form #productForm="ngForm" (ngSubmit)="onSubmit(productForm)">
+
+        <mat-form-field appearance="fill">
+            <mat-label>id</mat-label>
+            <input matInput type="number" name="id" [(ngModel)]="id" required hidden>
+        </mat-form-field><br>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Image</mat-label>
+            <input matInput type="text" name="Image" [(ngModel)]="Image" required hidden>
+        </mat-form-field><br>
+
+        <mat-form-field appearance="fill">
+          <mat-label>Name</mat-label>
+          <input matInput type="text" name="Name" [(ngModel)]="Name" required>
+        </mat-form-field><br>
+  
+        <mat-form-field appearance="fill">
+          <mat-label>Price</mat-label>
+          <input matInput type="number" name="Price" [(ngModel)]="Price" required>
+        </mat-form-field><br>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Description</mat-label>
+            <textarea matInput type="text" name="Desc" [(ngModel)]="Desc" required></textarea>
+          </mat-form-field><br>
+  
+        <button mat-raised-button color="primary" type="submit">Update</button>
+        <button mat-raised-button color="primary" (click)="Cancel()">Cancel</button>
+      </form><br>
+    </mat-card-content>
+  </mat-card>
+  

@@ -1,0 +1,25 @@
+<div>
+<mat-card style="margin-left: 38%;width:25%;margin-top: 5%; background-color: brown;">
+    <mat-card-header>
+      <mat-card-title style="margin-left:120px;font-weight: bolder;color: white;">Login</mat-card-title>
+    </mat-card-header><br>
+    <mat-card-content>
+      <form #loginForm="ngForm" (ngSubmit)="onSubmit()">
+  
+        <mat-form-field appearance="fill" style="width: 100%;">
+          <mat-label>Email</mat-label>
+          <input matInput type="text" name="email" [(ngModel)]="email" required email>
+        </mat-form-field><br>
+  
+        <mat-form-field appearance="fill" style="width: 100%;">
+          <mat-label>Password</mat-label>
+          <input matInput type="password" name="password" [(ngModel)]="password" required>
+        </mat-form-field><br>
+  
+        <button mat-raised-button color="primary" type="submit" style="margin-left:110px;">Login</button>
+      </form><br>
+      <p style="color: white;">Not Registered..? <a routerLink="/register" style="color: aliceblue;">Click Here</a></p>
+    </mat-card-content>
+  </mat-card>
+</div>
+  

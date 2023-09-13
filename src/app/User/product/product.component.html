@@ -1,0 +1,37 @@
+<app-header></app-header><br>
+<marquee style="color: brown;font-weight: bolder;font-size: 18px;">🎁🎁Limited Time Deals🎁🎁</marquee>
+<div class="slideshow-container">
+    <div *ngFor="let image of images; let i = index" class="mySlides" [class.fade]="i === currentIndex">
+      <img [src]="image" alt="Slideshow Image" />
+    </div>
+</div>
+
+    <select [(ngModel)]="selectedCategory" style="width: 200px;margin-left: 80%;height: 30px;">
+        <option value="">All Categories</option>
+        <option value="mobile">Mobile</option>
+        <option value="Laptop">Laptop</option>
+        <option value="Machine">Accessories</option>
+    </select>
+
+<div class="row">
+    <div class="column" *ngFor="let item of items | filterByCategory:selectedCategory">
+        <mat-card>
+            <mat-card-content>
+                <img src={{item.Image}} alt="image" style="width: 100px; height: 100px; float: left; margin-left:10%"><br>
+                <div style="float: right; margin-right: 5%;">
+                <p>{{ item.Name }}</p>
+                <p>{{ item.Desc }}</p>
+                <p>{{ item.Price | currency }}</p></div>
+                <div style="margin-top:40%"></div>
+                <button mat-raised-button (click)="Addtocart(item)" style="margin-left:50px;">Add to Cart</button>
+                <button mat-raised-button color="primary" (click)="getProductDetails(item.id)" style="margin-left:30px">Details</button>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div><br><br>
+
+<div class="footer">
+    <footer>
+      <p style="text-align: center; background-color: brown;width: 100%;margin: 0%; height: 40px; padding-top: 10px;color: white; font-size: 20px;font-family: cursive;">@Copyright 2023   -   Designed by Swaroop using Angular</p>
+    </footer>
+</div>

@@ -1,0 +1,26 @@
+
+.column {
+  float: left;
+  text-align: center;
+  width: 30%;
+  margin-top: 3%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+

@@ -1,0 +1,22 @@
+<app-header></app-header>
+<div class="row">
+  <div class="column" *ngFor="let item of items">
+      <mat-card>
+          <mat-card-content>
+              <img src={{item.Image}} alt="image" style="width: 100px; height: 100px; float: left; margin-left:10%"><br>
+              <div style="float: right; margin-right: 15%;">
+              <p>{{ item.Name }}</p>
+              <p>{{ item.Desc }}</p>
+              <p>{{ item.Price }}</p></div>
+              <div style="margin-top:40%"></div>
+              <button mat-raised-button (click)="removeClick(item.id)">Remove</button>
+              <button mat-raised-button color="primary" (click)="buyNow(item)" style="margin-left:30px">Buy Now</button>
+          </mat-card-content>
+      </mat-card><br><br>
+  </div>
+</div>
+
+<p style="text-align: center;margin-top: 10%;font-size: 40px;">{{message}}</p>
+<div class="footer">
+      <p style="text-align: center; background-color: brown;width: 100%;margin: 0%; height: 40px; padding-top: 10px;color: white; font-size: 20px;font-family: cursive;">@Copyright 2023   -   Designed by Swaroop using Angular</p>
+</div>

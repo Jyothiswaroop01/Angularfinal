@@ -1,0 +1,46 @@
+<div>
+  <button mat-raised-button (click)="addProduct()" style="margin-left: 80%;">Additem</button>
+  <button mat-button [matMenuTriggerFor]="menu" style="margin-left:4%; border-radius: 100%;">
+    <img [src]="imgurl" width="50px" height="40px">
+  </button>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item (click)="profileClick()">My Profile</button>
+    <button mat-menu-item>All Orders</button><hr>
+    <button mat-menu-item (click)="Quires()">All Quires</button>
+    <button mat-raised-button color="warn" (click)="logout()" style="margin-left:15px">Logout</button>
+  </mat-menu>
+</div>
+
+<div class="row">
+  <div class="column" *ngFor="let item of items">
+      <mat-card>
+          <mat-card-content>
+              <img [src]="item.Image" alt="image" style="width: 100px; height: 100px; float: left; margin-left:10%"><br>
+              <div style="float: right; margin-right: 15%;">
+              <p>{{ item.Name }}</p>
+              <p>{{ item.Desc }}</p>
+              <p>{{ item.Price }}</p></div>
+              <div style="margin-top:40%"></div>
+              <button mat-raised-button (click)="updateItem(item)" style="margin-left: 30px;">Update</button>
+              <button mat-raised-button color="primary" (click)="getProductDetails(item.id)" style="margin-left: 30px;">View</button>
+              <button mat-raised-button color="warn" (click)="deleteItem(item.id)" style="margin-left:30px">Delete</button>
+          </mat-card-content>
+      </mat-card><br><br>
+  </div>
+</div>
+<div *ngIf="selectedProduct">
+  <mat-card style="width: 30%; margin-left: 35%;">
+      <mat-card-content>
+              <h3 style="font-weight: bold;">Selected Product Details:</h3>
+              Name: {{ selectedProduct.Name }}<br>
+              Price: {{ selectedProduct.Price }}<br>
+              Description: {{ selectedProduct.Desc }}<br>
+      </mat-card-content>
+  </mat-card><br><br>
+</div>
+
+<div class="footer">
+    <footer>
+      <p style="text-align: center; background-color: brown;width: 100%;margin: 0%; height: 40px; padding-top: 10px;color: white; font-size: 20px;font-family: cursive;">@Copyright 2023   -   Designed by Swaroop using Angular</p>
+    </footer>
+  </div>

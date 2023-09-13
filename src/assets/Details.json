@@ -1,0 +1,229 @@
+{
+  "Data": [
+    {
+      "id": 1,
+      "Image": "https://th.bing.com/th/id/OIP.e6900wBWa2sAD14Po7ZYKAAAAA?pid=ImgDet&rs=1",
+      "Name": "Oneplus 10R",
+      "Price": 25000,
+      "OPrice": 35000,
+      "Desc": "Black 8GB 128GB",
+      "Description": "12 GB RAM | 256 GB ROM 16.64 cm (6.55 inch) Full HD+ Display 16.64 cm (6.55 inch) Full HD+ Display 50MP + 8MP | 16MP Front Camera 5000 mAh Battery Snapdragon 695 Processor",
+      "category": "mobile"
+    },
+    {
+      "id": 2,
+      "Image": "https://th.bing.com/th/id/OIP.EhTUNAsFhJQ9Wu2inwuvYQHaHa?pid=ImgDet&rs=1",
+      "Name": "Realme GT Neo 2",
+      "Price": 25000,
+      "Desc": "Black 8GB 128GB",
+      "Description": "12 GB RAM | 256 GB ROM 16.64 cm (6.55 inch) Full HD+ Display 16.64 cm (6.55 inch) Full HD+ Display 50MP + 8MP | 16MP Front Camera 5000 mAh Battery Snapdragon 695 Processor",
+      "category": "mobile"
+    },
+    {
+      "id": 3,
+      "Image": "https://specifications-pro.com/wp-content/uploads/2021/10/Xiaomi-Redmi-Note-11-Pro-Plus-1.jpg",
+      "Name": "Redmi note 11 pro",
+      "Price": 25000,
+      "Desc": "Black 8GB 128GB",
+      "Description": "12 GB RAM | 256 GB ROM 16.64 cm (6.55 inch) Full HD+ Display 16.64 cm (6.55 inch) Full HD+ Display 50MP + 8MP | 16MP Front Camera 5000 mAh Battery Snapdragon 695 Processor",
+      "category": "mobile"
+    },
+    {
+      "id": 4,
+      "Image": "../assets/Images/4.jpg",
+      "Name": "Samsung S23",
+      "Price": 25000,
+      "Desc": "Black 8GB 128GB",
+      "Description": "12 GB RAM | 256 GB ROM 16.64 cm (6.55 inch) Full HD+ Display 16.64 cm (6.55 inch) Full HD+ Display 50MP + 8MP | 16MP Front Camera 5000 mAh Battery Snapdragon 695 Processor",
+      "category": "mobile"
+    },
+    {
+      "id": 5,
+      "Image": "../assets/Images/5.jpg",
+      "Name": "Iphone 14 Pro",
+      "Price": 100,
+      "Desc": "Deep Purple 128GB",
+      "Description": "12 GB RAM | 256 GB ROM 16.64 cm (6.55 inch) Full HD+ Display 16.64 cm (6.55 inch) Full HD+ Display 50MP + 8MP | 16MP Front Camera 5000 mAh Battery Snapdragon 695 Processor",
+      "category": "mobile"
+    },
+    {
+      "id": 6,
+      "Image": "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/q/e/z/-original-imagpxgqesgrthks.jpeg?q=70",
+      "Name": "ASUS Vivobook 15 ",
+      "Price": 37990,
+      "OPrice": 49990,
+      "Desc": "Core i3 11th Gen",
+      "Description": "Stylish & Portable Thin and Light Laptop, 15.6 Inch FHD (1920 x 1080) 16:9 aspect ratio, LED Backlit LCD, Anti-glare display, 200nits Brightness, 83 % Screen-to-body ratio, Finger Print Sensor for Faster System Access,Light Laptop without Optical Disk Drive",
+      "category": "Laptop"
+    },
+    {
+      "id": 7,
+      "Image": "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/c/l/u/-original-imagp7pgcy8e6eta.jpeg?q=70",
+      "Name": "HP Laptop Core",
+      "Price": 38990,
+      "OPrice": 49990,
+      "Desc": "i3 11th Gen",
+      "Description": "Stylish & Portable Thin and Light Laptop 15.6 Inch Full HD, Brightness: 250 nits, 141 ppi, Color Gamut: 45%NTSC Light Laptop without Optical Disk Drive",
+      "category": "Laptop"
+    },
+    {
+      "id": 8,
+      "Image": "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/b/d/i/-original-imagzhefhc84rmbf.jpeg?q=70",
+      "Name": "Lenovo V15",
+      "Price": 34990,
+      "OPrice": 69525,
+      "Desc": "Ryzen5 HexaCore 5500U",
+      "Description": "Stylish & Portable Thin and Light Laptop 15.6 Inch Full HD Anti-glare Display Light Laptop without Optical Disk Drive",
+      "category": "Laptop"
+    },
+    {
+      "id": 9,
+      "Image": "https://rukminim2.flixcart.com/image/832/832/kp5sya80/screen-guard/tempered-glass/o/v/n/apple-macbook-air-m1-13-3-inch-lightwings-original-imag3gh5xftgbpg3.jpeg?q=70",
+      "Name": "Macbook Air M1",
+      "Price": 81990,
+      "OPrice": 99900,
+      "Desc": "8 GB/256 GB SSD",
+      "Description": "Stylish & Portable Thin and Light Laptop 13.3 inch Quad LED Backlit IPS Display (227 PPI, 400 nits Brightness, Wide Colour (P3), True Tone Technology) Light Laptop without Optical Disk Drive",
+      "category": "Laptop"
+    },
+    {
+      "id": 10,
+      "Image": "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/n/i/u/-original-imagpa5fbvqzk2xn.jpeg?q=70",
+      "Name": "Lenovo IdeaPad Slim 3 ",
+      "Price": 36990,
+      "OPrice": 631990,
+      "Desc": "Intel Core i3 11th Gen",
+      "Description": "Stylish & Portable Thin and Light Laptop 15.6 Inch FHD 220nits Anti-glare Light Laptop without Optical Disk Drive",
+      "category": "Laptop"
+    },
+    {
+      "id": 11,
+      "Image": "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/z/n/n/-original-imagsjzc93u5eskr.jpeg?q=70",
+      "Name": "realme BudsAir 5Pro",
+      "Price": 4999,
+      "OPrice": 7999,
+      "Desc": "upto 40 hours Playback",
+      "Description": "realBoost Coaxial Dual Drivers (11mm bass driver + 6mm micro-planar tweeter) 50dB ANC with 360 Spatial Audio Effect | LDAC HD Audio | Hi-Res Certified Upto 40 Hours Battery Life | Fast-charging support of 10 min charging for 7 hours playback 6 mic Noise Cancellation | Dual device Connection with Google Fast Pairing 40ms ultra-low latency | Bluetooth 5.3 | IPX5 Water Resistant | realme Link App Connectivity",
+      "category": "Machine"
+    },
+    {
+      "id": 12,
+      "Image": "https://rukminim2.flixcart.com/image/832/832/kpinwy80/headphone/r/1/q/mwp22hn-a-apple-original-imag3qe9eqkfhmg8.jpeg?q=70",
+      "Name": "APPLE Airpods Pro",
+      "Price": 22500,
+      "OPrice": 27000,
+      "Desc": "ANC for immersive sound",
+      "Description": "Active Noise Cancellation for immersive sound More than 24 hours of total listening time with the MagSafe Charging Case Transparency mode for hearing and interacting with the world around you Spatial audio with dynamic head tracking for theater-like sound that surrounds you Adaptive EQ automatically tunes music to the shape of your ear Three sizes of soft, tapered silicone tips for a customizable fit | Sweat and water resistant",
+      "category": "Machine"
+    },
+    {
+      "id": 13,
+      "Image": "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/z/l/f/buds-pro-2-oneplus-original-imaghtn6pfhr9yya.jpeg?q=70",
+      "Name": "OnePlusBuds Pro2 ",
+      "Price": 11999,
+      "OPrice": 13999,
+      "Desc": "Arbor Green",
+      "Description": "",
+      "category": "Machine"
+    },
+    {
+      "id": 14,
+      "Image": "https://rukminim2.flixcart.com/image/832/832/l1dwknk0/headphone/m/o/f/jblt230nctwswht-jbl-original-imagcyve23hd4q7n.jpeg?q=70",
+      "Name": "JBLTune 230NC ",
+      "Price": 5800,
+      "OPrice": 7999,
+      "Desc": "40Hr Playtime,Speed Charge",
+      "Description": "Battery life: 40 hrs | Charging time: 2 Hours Personalize your ANC, Equalizer settings, Gesture Controls and Find your Earbuds with JBL Headphones App 4 Mics for Clarity | Ambient Awareness & Talk Thru Function Speed Charge with 10 min providing 2 Hrs Playtime | IPX4 Water resistant and Sweatproof",
+      "category": "Machine"
+    },
+    {
+      "id": 15,
+      "Image": "https://rukminim2.flixcart.com/image/832/832/l5ld8y80/headphone/e/8/o/ga03201-google-original-imagg8d7bhxjduze.jpeg?q=70",
+      "Name": "GooglePixel BudsPro",
+      "Price": 15999,
+      "OPrice": 18999,
+      "Desc": "White",
+      "Description": "12 GB RAM | 256 GB ROM 16.64 cm (6.55 inch) Full HD+ Display 16.64 cm (6.55 inch) Full HD+ Display 50MP + 8MP | 16MP Front Camera 5000 mAh Battery Snapdragon 695 Processor",
+      "category": "Machine"
+    }
+  ],
+  "Cart": [
+    {
+      "id": 2,
+      "Image": "https://th.bing.com/th/id/OIP.EhTUNAsFhJQ9Wu2inwuvYQHaHa?pid=ImgDet&rs=1",
+      "Name": "Realme GT Neo 2",
+      "Price": 25000,
+      "Desc": "Black 8GB 128GB",
+      "Description": "12 GB RAM | 256 GB ROM 16.64 cm (6.55 inch) Full HD+ Display 16.64 cm (6.55 inch) Full HD+ Display 50MP + 8MP | 16MP Front Camera 5000 mAh Battery Snapdragon 695 Processor",
+      "category": "mobile"
+    }
+  ],
+  "Login": [
+    {
+      "fullName": "Nani",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "fullName": "Swaroop",
+      "email": "naniswaroop01@gmail.com",
+      "password": "12345",
+      "id": 5
+    }
+  ],
+  "Contact": [],
+  "Orders": [
+    {
+      "Productname": "Redmi note 11 pro",
+      "Description": "Black 8GB 128GB",
+      "Price": 25000,
+      "Image": "https://specifications-pro.com/wp-content/uploads/2021/10/Xiaomi-Redmi-Note-11-Pro-Plus-1.jpg",
+      "OrderStatus": "Pending",
+      "fullName": "htgyjhkn",
+      "Phonenumber": 98765,
+      "Email": "dfgfchv@gmail.com",
+      "Address-1": "hfgjkn",
+      "Address-2": "fhgjfhygj",
+      "Landmark": "gfhvgjb",
+      "Pincode": 98765,
+      "City": "dfxgchjbknl",
+      "State": "dfghjbn",
+      "id": 1
+    },
+    {
+      "Productname": "OnePlusBuds Pro2 ",
+      "Description": "Arbor Green",
+      "Price": 11999,
+      "Image": "https://rukminim2.flixcart.com/image/832/832/xif0q/headphone/z/l/f/buds-pro-2-oneplus-original-imaghtn6pfhr9yya.jpeg?q=70",
+      "OrderStatus": "Pending",
+      "fullName": "htgyjhkn",
+      "Phonenumber": 98765,
+      "Email": "dfgfchv@gmail.com",
+      "Address-1": "hfgjkn",
+      "Address-2": "fhgjfhygj",
+      "Landmark": "near",
+      "Pincode": 98765,
+      "City": "dfxgchjbknl",
+      "State": "dfghjbn",
+      "id": 2
+    },
+    {
+      "Productname": "Oneplus 10R",
+      "Description": "Black 8GB 128GB",
+      "Price": 25000,
+      "Image": "https://th.bing.com/th/id/OIP.e6900wBWa2sAD14Po7ZYKAAAAA?pid=ImgDet&rs=1",
+      "OrderStatus": "Pending",
+      "fullName": "htgyjhkn",
+      "Phonenumber": 9654289164,
+      "Email": "dfgfchv@gmail.com",
+      "Address-1": "hfgjkn",
+      "Address-2": "fhgjfhygj",
+      "Landmark": "near",
+      "Pincode": 98765,
+      "City": "dfxgchjbknl",
+      "State": "dfghjbn",
+      "id": 3
+    }
+  ]
+}

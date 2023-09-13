@@ -1,0 +1,27 @@
+<app-header></app-header>
+<div class="row">
+    <div class="column" *ngFor="let item of orders">
+        <mat-card>
+            <mat-card-content>
+                <img src={{item.Image}} alt="image" style="width: 100px; height: 100px; float: left; margin-left:10%"><br>
+                <div style="float: right; margin-right: 15%;">
+                <p>{{ item.Productname }}</p>
+                <p>{{ item.Description }}</p>
+                <p>{{ item.Price | currency }}</p></div>
+                <div style="margin-top:40%"></div>
+                <button mat-raised-button color="primary" (click)="getOrderDetails(item.id)" style="margin-left:30px">Details</button>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div><br><br>
+<div *ngIf="selectedProduct">
+    <mat-card style="width: 100%;background-color:honeydew;">
+        <mat-card-content>
+                <h3 style="font-weight: bold;">Order Details:</h3>
+                <strong>{{selectedProduct.Productname}}</strong>({{selectedProduct.Description}})<br>
+                {{selectedProduct.Price}}<br><br>
+                <p><strong>Delivery Address</strong><br>
+                Name:{{selectedProduct.fullName}}<br>Address:{{selectedProduct.Address1}},{{selectedProduct.Address2}}<br>Phonenumber:{{selectedProduct.Phonenumber}}<br>Order Status:{{selectedProduct.Status}}<br></p>
+        </mat-card-content>
+    </mat-card><br><br>
+</div>
